@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Anirudh</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- top bar - same as home -->
+    <div class="top-thing">
+      <div class="wrap-it">
+        <div class="my-brand">
+          <a href="https://github.com/anirudh19singh" class="brand-txt">/anirudh/</a>
+        </div>
+
+        <div class="links-box">
+          <a href="index.html" class="page-link">_home</a>
+          <a href="about.html" class="page-link">_about</a>
+          <a href="contact.html" class="page-link current">_contact</a>
+        </div>
+
+        <button class="menu-btn" id="menuToggler">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- main contact stuff -->
+    <div class="content-area">
+      <section class="contact-top">
+        <div class="wrap-it">
+          <div class="contact-heading">
+            <h1 class="contact-title">
+              let's <span class="highlight-word">talk</span>
+            </h1>
+            <p class="contact-sub">
+              have a question or just want to chat? drop me a line
+            </p>
+            <div class="title-line"></div>
+          </div>
+
+          <div class="contact-grid">
+            <div class="contact-left">
+              <div class="contact-form-box">
+                <h2 class="form-title">send a message</h2>
+                <p class="form-note">i'll get back to you soon</p>
+
+                <form id="contactForm" class="contact-form">
+                  <div class="form-group">
+                    <label for="userName" class="form-label">
+                      <i class="fas fa-user"></i> your name
+                    </label>
+                    <input
+                      type="text"
+                      id="userName"
+                      class="form-input"
+                      placeholder="type your name here"
+                    />
+                    <div class="input-line"></div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="userEmail" class="form-label">
+                      <i class="fas fa-envelope"></i> email address
+                    </label>
+                    <input
+                      type="email"
+                      id="userEmail"
+                      class="form-input"
+                      placeholder="your.email@example.com"
+                    />
+                    <div class="input-line"></div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="messageType" class="form-label">
+                      <i class="fas fa-tag"></i> what's this about?
+                    </label>
+                    <select id="messageType" class="form-select">
+                      <option value="">select a topic</option>
+                      <option value="work">work opportunity</option>
+                      <option value="project">project collaboration</option>
+                      <option value="question">just a question</option>
+                      <option value="hi">just saying hi</option>
+                      <option value="other">something else</option>
+                    </select>
+                    <div class="input-line"></div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="userMessage" class="form-label">
+                      <i class="fas fa-comment-alt"></i> your message
+                    </label>
+                    <textarea
+                      id="userMessage"
+                      class="form-textarea"
+                      rows="5"
+                      placeholder="what's on your mind?"
+                    ></textarea>
+                    <div class="input-line"></div>
+                  </div>
+
+                  <div class="form-footer">
+                    <button type="submit" class="submit-btn">
+                      <i class="fas fa-paper-plane"></i> send message
+                    </button>
+                    <p class="form-hint">
+                      or just email me directly at
+                      <a
+                        href="mailto:anirudhsingh190203@gmail.com"
+                        class="email-link"
+                        >anirudhsingh190203@gmail.com</a
+                      >
+                    </p>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <div class="contact-right">
+              <div class="info-box">
+                <h2 class="info-title">other ways to reach me</h2>
+
+                <div class="contact-method">
+                  <div class="method-icon">
+                    <i class="fas fa-envelope-open-text"></i>
+                  </div>
+                  <div class="method-content">
+                    <h3 class="method-title">email</h3>
+                    <a
+                      href="mailto:anirudhsingh190203@gmail.com"
+                      class="method-detail"
+                      >anirudhsingh190203@gmail.com</a
+                    >
+                    <p class="method-note">usually reply within 24 hours</p>
+                  </div>
+                </div>
+
+                <div class="contact-method">
+                  <div class="method-icon">
+                    <i class="fab fa-github"></i>
+                  </div>
+                  <div class="method-content">
+                    <h3 class="method-title">github</h3>
+                    <a href="https://github.com/anirudh19singh" class="method-detail">github.com/anirudh</a>
+                  </div>
+                </div>
+
+                <div class="contact-method">
+                  <div class="method-icon">
+                    <i class="fab fa-linkedin"></i>
+                  </div>
+                  <div class="method-content">
+                    <h3 class="method-title">linkedin</h3>
+                    <a href="https://www.linkedin.com/in/anirudh-singh-5193483a6/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="method-detail"
+                      >linkedin.com/in/anirudh</a
+                    >
+                    <p class="method-note">professional stuff</p>
+                  </div>
+                </div>
+
+                <div class="contact-method">
+                  <div class="method-icon">
+                    <i class="fab fa-twitter"></i>
+                  </div>
+                  <div class="method-content">
+                    <h3 class="method-title">twitter</h3>
+                    <a href="#" class="method-detail">@anirudh_dev</a>
+                    <p class="method-note">random thoughts and tech stuff</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-box">
+                <h3 class="faq-title">before you message...</h3>
+                <div class="faq-item">
+                  <div class="faq-q">
+                    <i class="fas fa-question-circle"></i>
+                    <span>how soon do you reply?</span>
+                  </div>
+                  <div class="faq-a">
+                    usually within a day, unless i'm buried in code
+                  </div>
+                </div>
+                <div class="faq-item">
+                  <div class="faq-q">
+                    <i class="fas fa-question-circle"></i>
+                    <span>do you do freelance work?</span>
+                  </div>
+                  <div class="faq-a">
+                    depends on the project and timeline - let's chat
+                  </div>
+                </div>
+                <div class="faq-item">
+                  <div class="faq-q">
+                    <i class="fas fa-question-circle"></i>
+                    <span>can you help with my project?</span>
+                  </div>
+                  <div class="faq-a">
+                    sure, if it's interesting and i have time
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- footer - same as home -->
+    <footer class="bottom-thing">
+      <div class="wrap-it">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <div class="footer-logo">@anirudh</div>
+            <p class="footer-motto">building things one line at a time</p>
+          </div>
+
+          <div class="footer-links">
+            <h4 class="links-heading">quick jumps</h4>
+            <a href="index.html" class="footer-link">home</a>
+            <a href="about.html" class="footer-link">about</a>
+            <a href="contact.html" class="footer-link current">contact</a>
+          </div>
+
+          <div class="footer-social">
+            <h4 class="links-heading">find me</h4>
+            <div class="social-icons">
+              <a href="https://github.com/anirudh19singh" class="social-link"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/anirudh-singh-5193483a6/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/anirudh_singh19?igsh=ZTlseWdjNXZzamM5"
+                class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="mailto:anirudhsingh190203@gmail.com" class="social-link"
+                ><i class="fas fa-envelope"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="copyright-line">
+          <p>
+            made with <i class="fas fa-heart" style="color: #ff4757"></i> by
+            anirudh • © <span id="yearNow">2023</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // menu toggler
+      const menuBtn = document.getElementById("menuToggler");
+      const linksBox = document.querySelector(".links-box");
+
+      menuBtn.addEventListener("click", () => {
+        linksBox.classList.toggle("show");
+      });
+
+      // close menu when clicking a link
+      document.querySelectorAll(".page-link").forEach((link) => {
+        link.addEventListener("click", () => {
+          linksBox.classList.remove("show");
+        });
+      });
+
+      // form submission
+      const contactForm = document.getElementById("contactForm");
+
+      contactForm.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        // get form values
+        const name = document.getElementById("userName").value;
+        const email = document.getElementById("userEmail").value;
+        const message = document.getElementById("userMessage").value;
+
+        // simple validation
+        if (!name || !email || !message) {
+          alert("hey, fill in all the fields please!");
+          return;
+        }
+
+        // simulate sending
+        const submitBtn = this.querySelector(".submit-btn");
+        const originalText = submitBtn.innerHTML;
+
+        submitBtn.innerHTML =
+          '<i class="fas fa-spinner fa-spin"></i> sending...';
+        submitBtn.disabled = true;
+
+        // fake API call
+        setTimeout(() => {
+          alert(
+            `thanks ${name}! your message has been sent. i'll get back to you at ${email} soon.`
+          );
+          contactForm.reset();
+          submitBtn.innerHTML = originalText;
+          submitBtn.disabled = false;
+        }, 1500);
+      });
+
+      // set current year
+      document.getElementById("yearNow").textContent = new Date().getFullYear();
+
+      // form input effects
+      const formInputs = document.querySelectorAll(
+        ".form-input, .form-select, .form-textarea"
+      );
+
+      formInputs.forEach((input) => {
+        input.addEventListener("focus", function () {
+          this.parentElement.querySelector(
+            ".input-line"
+          ).style.backgroundColor = "#64ffda";
+        });
+
+        input.addEventListener("blur", function () {
+          this.parentElement.querySelector(
+            ".input-line"
+          ).style.backgroundColor = "#233554";
+        });
+      });
+
+      // FAQ toggle
+      const faqItems = document.querySelectorAll(".faq-item");
+
+      faqItems.forEach((item) => {
+        item.addEventListener("click", function () {
+          this.classList.toggle("open");
+        });
+      });
+    </script>
+  </body>
+</html>
